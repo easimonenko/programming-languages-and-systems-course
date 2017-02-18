@@ -57,7 +57,31 @@ _Тезисы вводной лекции._
 
 ### ML
 
-...
+[ML -- Meta Language](https://ru.wikipedia.org/wiki/ML) (1973,
+[Робин Милнер](https://ru.wikipedia.org/wiki/Милнер,_Робин),
+университет Эдинбурга)
+
+[Алгоритм Хиндли-Милнера](https://ru.wikipedia.org/wiki/Вывод_типов)
+
+Статическая типизация, сильная типизация, вывод типов, строгие вычисления,
+полиморфная система типов, интерактивная среда, компиляция в машинный код.
+
+[Standard ML](https://ru.wikipedia.org/wiki/Standard_ML) (1984,
+[официальный сайт](http://sml-family.org/))
+
+[Caml](https://ru.wikipedia.org/wiki/Caml) (1987, INRIA,
+[официальный сайт](http://caml.inria.fr/))
+
+[Caml Light]() (1990, INRIA,
+[официальный сайт](http://caml.inria.fr/caml-light/index.en.html))
+
+[OCaml -- Objective Caml](https://ru.wikipedia.org/wiki/OCaml) (1996, INRIA,
+[официальный сайт](http://ocaml.org/))
+
+Автоматическая сборка мусора, неизменяемые структуры данных.
+
+[F#](https://ru.wikipedia.org/wiki/F_Sharp) (2005, Microsoft Research,
+[официальный сайт](http://fsharp.org/))
 
 ### Erlang
 
@@ -109,4 +133,4 @@ ClojureScript
 
 ---
 
-&copy; [Евгений А. Симоненко](LICENSE.md), 2014-2017
+&copy; [Евгений А. Симоненко](LICENSE.md), 2017
