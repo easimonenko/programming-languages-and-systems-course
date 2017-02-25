@@ -72,7 +72,7 @@ _Тезисы вводной лекции._
 [Caml](https://ru.wikipedia.org/wiki/Caml) (1987, INRIA,
 [официальный сайт](http://caml.inria.fr/))
 
-[Caml Light]() (1990, INRIA,
+[Caml Light](http://progopedia.ru/implementation/caml-light/) (1990, INRIA,
 [официальный сайт](http://caml.inria.fr/caml-light/index.en.html))
 
 [OCaml -- Objective Caml](https://ru.wikipedia.org/wiki/OCaml) (1996, INRIA,
@@ -85,19 +85,23 @@ _Тезисы вводной лекции._
 
 ### Erlang
 
-Erlang
+[Erlang](https://ru.wikipedia.org/wiki/Erlang) (1987, Ericsson, Джо Армстронг,
+[официальный сайт](https://www.erlang.org/))
 
-Elixir
-
-...
+[Elixir](https://ru.wikipedia.org/wiki/Elixir) (2012, Хосе Валим,
+[официальный сайт](http://elixir-lang.org/))
 
 ### Haskell
 
-...
+[Haskell](https://ru.wikipedia.org/wiki/Haskell) (1990, Павел Худяк,
+Леннарт Аугустссон, Джон Хьюз, Джонс Саймон Пейтон, Эрик Майер, Филип Вадлер,
+[официальный сайт](http://haskell.org/))
 
 ### Scala
 
-...
+[Scala](https://ru.wikipedia.org/wiki/Scala_(язык_программирования)) (2003,
+Мартин Одерски, Федеральная политехническая школа в Лозанне (EPFL),
+[официальный сайт](http://www.scala-lang.org/))
 
 ### Математические основы функционального программирования
 
