@@ -68,9 +68,13 @@ _Это проект курса по языкам программировани
 
 ## Лицензия
 
-[![Лицензия Creative Commons](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Лицензия Creative Commons «Attribution-NoDerivatives»](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nd/4.0/)
 
-Произведение «[Заметки о функциональном и логическом программировании](https://github.com/easimonenko/notes-about-flp)»,
-созданное автором по имени [Евгений А. Симоненко](mailto:easimonenko@mail.ru),
+Произведение [Курс «Языки программирования»](https://github.com/easimonenko/programming-languages-course),
+созданное автором по имени [Симоненко Евгений Анатольевич](mailto:easimonenko@mail.ru),
 публикуется на условиях
-[лицензии Creative Commons «Attribution-ShareAlike» («Атрибуция — На тех же условиях») 4.0 Всемирная](https://creativecommons.org/licenses/by-sa/4.0/).
+[лицензии Creative Commons «Attribution-ShareAlike» («С указанием авторства — Без производных») 4.0 Всемирная](https://creativecommons.org/licenses/by-nd/4.0/).
+
+---
+
+(c) 2017, 2018, Симоненко Евгений Анатольевич, easimonenko@mail.ru
