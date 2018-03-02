@@ -73,7 +73,7 @@ _Это проект курса по языкам программировани
 Произведение [Курс «Языки программирования»](https://github.com/easimonenko/programming-languages-course),
 созданное автором по имени [Симоненко Евгений Анатольевич](mailto:easimonenko@mail.ru),
 публикуется на условиях
-[лицензии Creative Commons «Attribution-ShareAlike» («С указанием авторства — Без производных») 4.0 Всемирная](https://creativecommons.org/licenses/by-nd/4.0/).
+[лицензии Creative Commons «Attribution-NoDerivatives» («С указанием авторства — Без производных») 4.0 Всемирная](https://creativecommons.org/licenses/by-nd/4.0/).
 
 ---
 
