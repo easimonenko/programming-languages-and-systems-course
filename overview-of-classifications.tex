@@ -1,0 +1,311 @@
+% overview-of-classifications.tex
+% Title: Обзор классификаций языков программирования
+% Author: Evgeny Simonenko <easimonenko@mail.ru>
+% License: CC BY-ND 4.0
+
+\documentclass[9pt,pdf]{beamer}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+\defaultfontfeatures{Ligatures={TeX},Renderer=Basic}
+\setmainfont[Ligatures={TeX,Historic}]{Linux Libertine O}
+\setsansfont{DejaVu Sans}
+\setmonofont{Linux Libertine Mono O}
+
+%\usetheme{Boadilla}
+\usetheme{Verona} % Минималистичная.
+%\usetheme{Copenhagen}
+%\usetheme{Marburg} % Для широкого экрана.
+%\usetheme{JLTree} % Интересный вариант.
+%\usetheme{Rochester} % Интересный вариант.
+%\usetheme{SaintPetersburg} % :) Прикольная, но слишком минималистичная.
+\usecolortheme{dove}
+%\usecolortheme{seagull}
+
+%\usepackage{biblatex}
+%\addbibresource{bibliography.bib}
+
+\setcounter{tocdepth}{1}
+
+\begin{document}
+	
+\author{Симоненко Е.А.}
+\title{Языки и системы программирования}
+\subtitle{Обзор классификаций языков программирования}
+\institute[КубГТУ]{Кубанский государственный технологический университет}
+\date{2019}
+	
+\begin{frame}
+	\titlepage
+\end{frame}
+	
+\begin{frame}
+	\frametitle{Содержание}
+	\tableofcontents
+\end{frame}
+
+\section{По областям применения}
+
+\begin{frame}
+	\frametitle{По областям применения}
+	\begin{itemize}
+		\item Языки для научных приложений
+		\item Языки для коммерческих приложений
+		\item Языки для искусственного интеллекта
+		\item Языки системного программирования
+		\item Языки сценариев (скриптов)
+		\item Специализированные языки
+	\end{itemize}
+\end{frame}
+
+\subsection{Языки для научных приложений}
+
+\begin{frame}
+	\frametitle{Языки для научных приложений}
+	\begin{itemize}
+		\item Fortran
+		\item C, C++
+		\item R
+		\item Python, Julia
+		\item Scilab, Maxima, GNU Octave, Axiom, Reduce
+		\item Haskell, Agda
+	\end{itemize}
+\end{frame}
+
+\subsection{Языки для коммерческих приложений}
+
+\begin{frame}
+	\frametitle{Языки для коммерческих приложений}
+	\begin{itemize}
+		\item Java, C\#
+		\item C, C++
+		\item Perl, Python, PHP
+		\item Haskell
+		\item JavaScript, TypeScript
+		\item Lisp, Clojure, ClojureScript
+	\end{itemize}
+\end{frame}
+
+\subsection{Языки для искусственного интеллекта}
+
+\begin{frame}
+	\frametitle{Языки для искусственного интеллекта}
+	\begin{itemize}
+		\item Prolog
+		\item Python
+		\item Lisp
+		\item CLIPS
+	\end{itemize}
+\end{frame}
+
+\subsection{Языки системного программирования}
+
+\begin{frame}
+	\frametitle{Языки системного программирования}
+	\begin{itemize}
+		\item C, C++
+		\item Rust
+		\item Java
+	\end{itemize}
+\end{frame}
+
+\subsection{Языки сценариев (скриптов)}
+
+\begin{frame}
+	\frametitle{Языки сценариев (скриптов)}
+	\begin{itemize}
+		\item Shell
+		\item Perl
+		\item Python
+		\item JavaScript
+		\item Emacs Lisp
+		\item Scheme
+		\item R
+	\end{itemize}
+\end{frame}
+
+\subsection{Специализированные языки}
+
+\begin{frame}
+	\frametitle{Специализированные языки}
+	\begin{itemize}
+		\item Scratch
+		\item Siemens Step 7
+		\item Coq, Isabelle
+		\item Ant
+		\item OpenCL, CUDA: C-подобный язык для графических карт.
+	\end{itemize}
+\end{frame}
+
+\section{По способу написания программ}
+
+\begin{frame}
+	\frametitle{По способу написания программ}
+	\begin{itemize}
+		\item текстовые
+		\item графические
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Текстовые языки}
+	Подавляющее большинство языков программирования.
+	
+	C++, Java, Python, C\#, R ...
+\end{frame}
+
+\begin{frame}
+	\frametitle{Графические языки}
+	Редкий случай.
+	\begin{itemize}
+		\item Scratch: для обучения детей программированию.
+		\item Siemens Step 7: для программирования PLC.
+		\item UML: транслируется в <<обычный>> язык программирования.
+	\end{itemize}
+\end{frame}
+
+\section{Императивный и декларативный подходы}
+
+\begin{frame}
+	\frametitle{Императивные языки}
+	\begin{itemize}
+		\item C, C++
+		\item Fortran, Pascal
+		\item Java, C\#
+		\item Python, Perl, R
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Декларативные языки}
+	\begin{itemize}
+		\item Prolog
+		\item Haskell, Agda, Idris
+		\item SQL
+	\end{itemize}
+\end{frame}
+
+\section{Компилируемые и интерпретируемые языки}
+
+\begin{frame}
+	\frametitle{Компилируемые языки}
+	Система программирования содержит компилятор. Этап компиляции присутствует в явном виде: чтобы запустить программу, её нужно сначала скомпилировать.
+	\begin{itemize}
+		\item C, C++, Rust
+		\item Fortran, Pascal
+		\item Java, C\#
+		\item Haskell, Agda, Idris
+		\item TypeScript
+		\item Visual Prolog
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Интерпретируемые языки}
+	Система программирования может содержать компилятор, но для запуска программы не требуется вызывать его в явном виде.
+	\begin{itemize}
+		\item Shell
+		\item Perl, Python, R, Ruby
+		\item JavaScript
+		\item Scheme, ClojureScript, Emacs Lisp
+		\item SWI-Prolog, GNU Prolog
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Языки с компиляцией в машинный код}
+	\begin{itemize}
+		\item C, C++, Rust
+		\item Fortran, Pascal
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Языки с компиляцией в байт-код}
+	\begin{itemize}
+		\item Java, C\#
+		\item Haskell
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Языки с компиляцией в другой язык}
+	\begin{itemize}
+		\item TypeScript -> JavaScript
+		\item Idris -> JavaScript
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Интерпретируемые языки со <<скрытой>> компиляцией в байт-код}
+	\begin{itemize}
+		\item Python, Ruby
+		\item Perl
+		\item R
+		\item JavaScript
+		\item Scheme, Emacs Lisp
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{<<Подлинно>> интерпретируемые языки}
+	\begin{itemize}
+		\item Shell
+		\item Scilab, Maxima, GNU Octave?
+		\item SWI-Prolog, GNU Prolog?
+	\end{itemize}
+\end{frame}
+
+\section{Низкоуровневые и высокоуровневые языки}
+
+\begin{frame}
+	\frametitle{Низкоуровневые и высокоуровневые языки}
+	Когда-то языки более высокого уровня чем ассемблер считались высокоуровневыми. При таком подходе практически все распространённые языки следует считать высокоуровневыми. Более современный подход таков:
+	\begin{itemize}
+		\item \textit{низкоуровневые языки} оперируют объектами непосредственно связанными с архитектурой компьютера и его операционной системой, как-то: байты, биты, адреса, прерывания, системные вызовы, потоки и процессы. Программы на таких языках как-правило компилируются в непосредственно исполняемый машинный код.
+		\item \textit{высокоуровневые языки} работают с абстракциями, представляющими математические или материальные объекты, например, с текстами, графами, виджетами, таблицами и записями баз данных. Такие языки обычно не имеют прямого доступа к процессору и памяти. Программы на них как-правило компилируются в байт-код или интерпретируются.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Низкоуровневые языки}
+	\begin{itemize}
+		\item C
+		\item C++
+		\item Rust
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Высокоуровневые языки}
+	\begin{itemize}
+		\item Prolog
+		\item Haskell, Agda, Idris
+		\item Python, R, Perl, Ruby
+		\item Emacs Lisp, Scheme, ClojureScript
+		\item Java, C\#, Clojure
+	\end{itemize}
+\end{frame}
+
+%\begin{thebibliography}{10}
+%\printbibliography
+%\end{thebibliography}
+
+\section*{Благодарность}
+
+\begin{frame}
+\center
+
+\textit{Благодарю за внимание!}
+
+\textbf{\textsl{\inserttitle}}
+
+\textsl{\insertsubtitle}
+
+\insertauthor
+
+\url{easimonenko@mail.ru}
+\end{frame}
+
+\end{document}
